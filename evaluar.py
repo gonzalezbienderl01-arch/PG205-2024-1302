@@ -1,3 +1,14 @@
+
+/*********************/
+/*           Programación para mecatrónicos               */
+/*  Nombre:    Bienderl Gonzalez                          */
+/*  Matricula: 2024-1302                                  */
+/*  Seccion:   Miercoles                                  */
+/*  Practica:  Seguno parcial                             */
+/*  Fecha:     7/11/2026                                   */                       
+/* Link Practica: https://github.com/gonzalezbienderl01-arch/PG205-2024-1302.git  */
+/*********************/
+
 import json, subprocess, sys
 from pathlib import Path
 casos = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
